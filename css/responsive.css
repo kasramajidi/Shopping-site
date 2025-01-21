@@ -1,0 +1,101 @@
+@media (max-width: 390px) {
+    /* قسمت سبز */
+    .section-1 span{
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    /* قسمت لوگو و سرچ*/
+
+    .section-2{
+        display: none ;
+    }
+
+    .section-2-responsive{
+        display: block;
+    }
+
+    /* navbar */
+
+    .navbar-all{
+        display: none;
+    }
+
+    /* picture header */
+
+    .big-image{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        height: 694px;
+    }
+
+    .left-box{
+        margin-left: 24px;
+    }
+
+    .span1{
+        width: 132px;
+        height: 21px;
+        font-size: 16px;
+        margin-top: 56px;
+    }
+
+    .left-box h1{
+        max-width: 400px;
+        height: 76px;
+        font-size: 30px;
+        line-height: 38px;
+        color: white;
+        margin-top: 12px;
+        margin-bottom: 0;
+    }
+
+    .span-2{
+        height: 24px;
+        font-size: 16px;
+        color: #F4F4F4;
+        margin-bottom: 40px;
+        margin-top: 16px;
+    }
+
+    .left-box-span{
+        gap: 24px;
+        height: 27px;
+        margin-bottom: 30px;
+    }
+    
+    .left-box-span span{
+        max-width:  200px;
+        font-weight: 500;
+        font-size: 18px;
+        height: 27px;
+
+    }
+    
+    .left-box-span div {
+        width: 16px;
+        height: 1px;
+        rotate: -90deg;
+        border: 1px solid #9D9EA2;
+    }
+
+    .btn{
+        height: 56px;
+        padding: 0 40px;
+        gap: 8px;
+        font-size: 16px;
+        margin-bottom: 32px;
+    }
+
+
+    .image-1{
+        display: none;
+    }
+
+    .image-2{
+        display: block;
+    }
+
+}
